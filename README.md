@@ -96,4 +96,4 @@ Mở <http://localhost:8080>. Nhấn `Ctrl+C` trong cửa sổ đang chạy đ�
 - Tác giả: Hứa Đức Trung
 - Email đang hiển thị trong trang: `duc.trung@example.com` (địa chỉ mẫu, cần thay bằng email thật trước khi công khai).
 - GitHub: `github.com/huaductrung` (cần kiểm tra và cập nhật liên kết thật trong `index.html`).
-- LinkedIn: `linkedin.com/in/huaductrung` (cần kiểm tra và cập nhật liên kết thật trong `index.html`).
+- LinkedIn: `linkedin.com/in/huaductrung` (cần kiểm tra và cập nhật liên kết thật trong `index.html`)
