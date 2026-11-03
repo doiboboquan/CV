@@ -31,6 +31,7 @@
       <!-- NAV dùng Flexbox (xem styles.css) -->
       <nav class="main-nav" aria-label="Điều hướng chính">
         <ul class="nav-list">
+          <li><a href="#login">Login</a></li>
           <li><a href="#about">Giới thiệu</a></li>
           <li><a href="#skills">Kỹ năng</a></li>
           <li><a href="#projects">Dự án</a></li>
@@ -104,7 +105,7 @@
               src="assets/img/image.webp"
               alt="" width="600" height="360" />
             <div class="card-body">
-              <h3 class="card-title">tom bell</h3>
+              <h3 class="card-title">tom</h3>
               <p class="card-desc">
                 Trang giới thiệu sản phẩm responsive, tối ưu tốc độ tải và SEO cơ bản.
               </p>
@@ -122,7 +123,7 @@
               src="assets/img/cd1-358c5.webp"
               alt="Ảnh minh họa dự án Todo App" width="600" height="360" />
             <div class="card-body">
-              <h3 class="card-title">black đao</h3>
+              <h3 class="card-title">image</h3>
               <p class="card-desc">
                 Ứng dụng quản lý công việc với lưu trữ cục bộ và giao diện tối giản.
               </p>
@@ -137,8 +138,9 @@
           <article class="card">
             <img class="card-media"
               src="assets/img/CatsMeOuch_Scratch.gif"
+              alt="" width="600" height="360" />
             <div class="card-body">
-              <h3 class="card-title">Weather Dashboard</h3>
+              <h3 class="card-title">billy</h3>
               <p class="card-desc">
                 Bảng điều khiển thời tiết lấy dữ liệu từ API công khai, hiển thị theo thẻ.
               </p>
@@ -153,9 +155,9 @@
           <article class="card">
             <img class="card-media"
               src="assets/img/7f10f39e54aad282f4d3d35a7537b4d3.gif"
-              alt="avt4" width="600" height="360" />
+              alt="" width="600" height="360" />
             <div class="card-body">
-              <h3 class="card-title">avt4</h3>
+              <h3 class="card-title">cat</h3>
               <p class="card-desc">
                 Blog tĩnh với bố cục dạng lưới, hỗ trợ đọc tốt trên mọi thiết bị.
               </p>
@@ -172,6 +174,57 @@
     </section>
 
     <!-- ----- SECTION: Liên hệ ----- -->
+     <!-- ----- SECTION: LOGIN ----- -->
+<section id="login" class="section login-section">
+  <div class="container login-container">
+
+    <h2 class="section-title">Log In</h2>
+    <p class="section-sub">
+      Welcome back! Please enter your account information.
+    </p>
+
+    <form class="login-form" action="#" method="post">
+
+      <div class="login-field">
+        <label for="login-email">Email</label>
+        <input
+          type="email"
+          id="login-email"
+          name="email"
+          placeholder="Enter your email address"
+          required />
+      </div>
+
+      <div class="login-field">
+        <label for="login-password">Password</label>
+        <input
+          type="password"
+          id="login-password"
+          name="password"
+          placeholder="Enter your password"
+          required />
+      </div>
+
+      <div class="login-options">
+        <label>
+          <input type="checkbox" name="remember" />
+          Remember me
+        </label>
+        <a href="#">Forgot password?</a>
+      </div>
+
+      <button type="submit" class="login-button">
+        LOG IN
+      </button>
+
+      <p class="login-register">
+        Don't have an account?
+        <a href="#">Register</a>
+      </p>
+
+    </form>
+  </div>
+</section>
     <section id="contact" class="section">
       <div class="container contact-inner">
         <h2 class="section-title">Liên hệ</h2>
